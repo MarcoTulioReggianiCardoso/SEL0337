@@ -1,0 +1,17 @@
+commit 36c78ea1ba923ce59dc0f113104f1c6d75364656
+Author: MarcoTulioReggianiCardoso <marcoreggianicard@usp.br>
+Date:   Mon Dec 18 10:19:44 2023 -0300
+
+    Adiciona código Camera
+
+commit 5c16386eb6c4ffae77e2d4a618cc3c19e9bee245
+Author: MarcoTulioReggianiCardoso <marcoreggianicard@usp.br>
+Date:   Mon Dec 18 10:16:50 2023 -0300
+
+    Adiciona código RFID
+
+commit 386626c059c172e0360b9f859fd1de0b2462b17b
+Author: Marco Túlio Reggiani Cardoso <152184157+MarcoTulioReggianiCardoso@users.noreply.github.com>
+Date:   Mon Dec 4 11:02:18 2023 -0300
+
+    Initial commit

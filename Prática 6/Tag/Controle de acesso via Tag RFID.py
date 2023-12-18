@@ -30,7 +30,7 @@ while True: #loop
     id,texto = leitor.read()
     print("ID: {}\nTexto: {}".format(id, texto)) #exibe as informações coletadas
 
-	if id == idtag
+	if id == idtag:
 		print("acesso liberado")
 		GPIO.output(17, True) #Aciona o Led Verde
 	else:
@@ -40,8 +40,4 @@ while True: #loop
     sleep(3) #aguarda 3 segundos para nova leitura
 	
     GPIO.output(17, False) #Desliga o Led Verde
-	GPIO.output(18, False) #Desliga o Led Vermelho
-
-
-except KeyboardInterrupt:   #exceção que é disparada quando o usuário interrompe a execução de um programa pressionando a combinação de teclas Ctrl+C no teclado.
-	GPIO.cleanup()          #função da biblioteca Rpi.GPIO que Limpa os pinos GPIO antes de encerrar o programa
+    GPIO.output(18, False) #Desliga o Led Vermelho

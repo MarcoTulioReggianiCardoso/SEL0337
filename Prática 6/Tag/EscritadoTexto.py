@@ -10,7 +10,7 @@ GPIO.setwarnings(False)
 leitor = SimpleMFRC522()
 
 #criado da variavel que armazena o texto que será gravado na tag
-texto = "CRUZEIRO SERIE B" #altere para o texto que deseja gravar
+texto = "12547531" #altere para o texto que deseja gravar
 
 #escreve a tag assim que ela for aproximada do leitor, e informa a conclusão
 print("Aproxime a tag do leitor para gravar.")
